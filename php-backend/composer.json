@@ -1,0 +1,13 @@
+{
+    "name": "factory/cmms-backend",
+    "description": "Factory Machine Management & Preventive Maintenance CMMS/EAM Backend in PHP PDO",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FactoryCMMS\\": "src/"
+        }
+    }
+}
